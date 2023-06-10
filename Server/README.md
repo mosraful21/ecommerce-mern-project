@@ -103,3 +103,6 @@
     Step-9: POST /api/users/process-register -> porcess the registration
     Step-10: POST /api/users/verify -> verify + register into database
     Step-11: Create Json Web Token (JWT) -> npm i jsonwebtoken
+    Step-12: Setup smtp server & prepare email
+    Step-13: Sent email with nodemailer -> npm install nodemailer
+    Step-13: POST /api/users/verify -> verify + register into database

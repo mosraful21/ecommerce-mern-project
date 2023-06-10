@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { Schema, model } = require("mongoose");
 const { defaultImagePath } = require("../secret");
 
