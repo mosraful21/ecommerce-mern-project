@@ -43,13 +43,6 @@ app.use((req, res, next) => {
 
 // Server Error Handling -> all routes errors here come
 app.use((err, req, res, next) => {
-  //   console.error(err.stack);
-  //   res.status(500).send("Something broke!");
-
-  // return res.status(err.status || 500).json({
-  //   success: false,
-  //   message: err.message,
-  
   return errorResponse(res, {
     statusCode: err.status,
     message: err.message,

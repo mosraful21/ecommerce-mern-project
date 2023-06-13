@@ -87,7 +87,7 @@
     Step-3: Set userName and Password to URL
     Step-4: Install Mongoose package : npm i mongoose
     Step-5: Schema and Model for User:
-    Step-6: Install Bcrypt package for User Password Security : npm i bcrypt
+    Step-6: Install Bcryptjs package for User Password Security : npm i bcryptjs
 
 ## User data setup
 
@@ -101,8 +101,7 @@
     Step-8: DeleteImage helper
 
     Step-9: POST /api/users/process-register -> porcess the registration
-    Step-10: POST /api/users/verify -> verify + register into database
-    Step-11: Create Json Web Token (JWT) -> npm i jsonwebtoken
-    Step-12: Setup smtp server & prepare email
-    Step-13: Sent email with nodemailer -> npm install nodemailer
+    Step-10: Create Json Web Token (JWT) -> npm i jsonwebtoken
+    Step-11: Setup smtp server & prepare email
+    Step-12: Sent email with nodemailer -> npm install nodemailer
     Step-13: POST /api/users/verify -> verify + register into database
